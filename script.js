@@ -54,6 +54,25 @@ async function createRoom() {
 	}
 }
 
+async function checkForNumber() {
+	if (number) {
+		build();
+		return;
+	}
+
+	const query = new Parse.Query("Client");
+	client.set("objectId", clientId);
+	try {
+		const result = await query.find();
+		number = result.get("number");
+	} catch(error) {
+		colsole.log("checkForNumber: error while checking for number: " + error.message);
+	}
+
+	// Keep checking for a number until one is set.
+	setTimeout(checkForNumber, 3 * 1000);
+}
+
 async function joinRoom() {
 	if (!clientId) {
 		return false;
