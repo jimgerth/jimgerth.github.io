@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1182 1182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Dial" transform="matrix(0.977108,0,0,0.980885,13.5187,11.2679)">
+        <path d="M268.759,1052.77C122.85,950.963 27.299,781.828 27.299,590.551C27.299,279.684 279.684,27.299 590.551,27.299C901.419,27.299 1153.8,279.684 1153.8,590.551C1153.8,781.828 1058.25,950.963 912.343,1052.77C851.527,937.142 730.185,858.206 590.551,858.206C450.918,858.206 329.575,937.142 268.759,1052.77Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:1.28px;"/>
+        <g transform="matrix(-0.913326,-1.92101e-16,1.92101e-16,-0.913326,1008.15,944.999)">
+            <g transform="matrix(-1.12055,2.35686e-16,-2.34779e-16,-1.11624,1118.97,1047.26)">
+            </g>
+        </g>
+    </g>
+</svg>
